@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Russian Agile Marketing Manifesto</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <div class="logo">
+        <h1>Agile Marketing Manifesto</h1>
+      </div>
+      <div class="header"></div>
+    </div>
+    <nav>
+      <button id="one" onclick="selectValue('one', this)">
+        Ценность первая
+      </button>
+      <button id="two" onclick="selectValue('two', this)">
+        Ценность вторая
+      </button>
+      <button id="three" onclick="selectValue('three', this)">
+        Ценность третья
+      </button>
+      <button id="four" onclick="selectValue('four', this)">
+        Ценность четвертая
+      </button>
+      <button id="five" onclick="selectValue('five', this)">
+        Ценность пятая
+      </button>
+      <button id="principles" onclick="selectValue('principles', this)">
+        Принципы
+      </button>
+    </nav>
+    <div class="content"></div>
+
+    <script>
+      document.querySelector("#one").click();
+    </script>
+  </body>
+</html>
